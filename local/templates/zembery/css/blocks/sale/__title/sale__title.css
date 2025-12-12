@@ -1,0 +1,37 @@
+.sale__title {
+  margin: 0;
+  color: #1F2937;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  max-width: 813px;
+  width: 100%;
+  font-family: "Muller", sans-serif;
+}
+
+@media (max-width: 1439px) {
+  .sale__title {
+    font-size: 22px;
+    max-width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 710px) {
+  .sale__title {
+    font-size: 18px;
+    max-width: 270px;
+    line-height: 30px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 460px) {
+  .sale__title {
+    font-size: 16px;
+    max-width: 100%;
+    line-height: 20px;
+    margin: 10px 0px;
+  }
+}

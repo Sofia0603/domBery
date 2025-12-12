@@ -1,0 +1,9 @@
+.footer__time {
+  width: 165px;
+}
+
+@media (max-width: 560px) {
+  .footer__time {
+    display: none;
+  }
+}

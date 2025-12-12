@@ -1,0 +1,8 @@
+.map {
+  background-image: url(../../image/Map.jpg);
+  width: 1120px;
+  height: 504px;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 44px;
+}

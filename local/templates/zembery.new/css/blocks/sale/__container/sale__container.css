@@ -1,0 +1,20 @@
+.sale__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* max-width: 1120px; */
+  width: 100%;
+}
+
+@media (max-width: 1439px) {
+  .sale__container{
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .sale__container{
+    flex-direction: column;
+  }
+}

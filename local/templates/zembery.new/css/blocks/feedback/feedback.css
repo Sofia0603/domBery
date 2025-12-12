@@ -1,0 +1,18 @@
+.feedback {
+  padding: 41px 0 42px;
+  background-color: #fff;
+  /* max-width: 1120px; */
+  margin: 0 auto;
+}
+
+@media (max-width: 1220px) {
+  .feedback {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 580px) {
+  .feedback {
+    max-width: 100%;
+  }
+}

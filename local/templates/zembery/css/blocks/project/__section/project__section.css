@@ -1,0 +1,49 @@
+.project__section {
+  max-height: 500px;
+  background-color: #10B981;
+  border-radius: 20px;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-top: 26px;
+  background-image: url(../../../../image/ipoteka-banner.jpg);
+  background-size: cover;
+  background-position: top left;
+  overflow: hidden;
+}
+
+@media (max-width: 1439px) {
+  .project__section {
+    max-height: 385px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .project__section {
+    width: 260px;
+    position: relative;
+    height: 317px;
+  }
+}
+
+@media (max-width: 830px) {
+  .project__section {
+    margin: 0 auto;
+    width: 500px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 570px) {
+  .project__section {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 440px) {
+  .project__section {
+    width: 100%;
+    padding: 14px;
+  }
+}

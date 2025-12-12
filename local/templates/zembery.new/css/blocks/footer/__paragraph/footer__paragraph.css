@@ -1,0 +1,16 @@
+.footer__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F3F4F6;
+  margin: 0 0 10px;
+  font-family: "Inter Tight", sans-serif;
+  width: 167px;
+}
+
+@media (max-width: 1130px) {
+  .footer__paragraph {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

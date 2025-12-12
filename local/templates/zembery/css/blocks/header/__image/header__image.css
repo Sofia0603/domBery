@@ -1,0 +1,8 @@
+.header__image {
+  width: 22px;
+  height: 24px;
+}
+
+.header__image:first-child {
+  margin-right: 8px;
+}

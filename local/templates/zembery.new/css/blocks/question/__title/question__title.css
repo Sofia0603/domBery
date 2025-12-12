@@ -1,0 +1,15 @@
+.question__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  margin: 8px 0 6px;
+  font-family: "Muller", sans-serif;
+}
+
+@media (max-width: 706px) {
+  .question__button {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+

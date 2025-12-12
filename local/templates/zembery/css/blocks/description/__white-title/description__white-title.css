@@ -1,0 +1,25 @@
+.description__white-title {
+  position: absolute;
+  top: 190px;
+  left: 20px;
+  color: #1F2937;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Inter Tight", sans-serif;
+  margin: 25px 0 0;
+}
+
+@media (max-width: 606px) {
+  .description__white-title {
+    top: 170px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 440px) {
+  .description__white-title {
+    font-size: 10px;
+    top: 140px;
+  }
+}

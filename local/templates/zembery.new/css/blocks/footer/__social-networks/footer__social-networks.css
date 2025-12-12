@@ -1,0 +1,13 @@
+.footer__social-networks {
+  width: 92px;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+
+@media (max-width: 560px) {
+  .footer__social-networks {
+    display: none;
+  }
+}

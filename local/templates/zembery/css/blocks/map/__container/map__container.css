@@ -1,0 +1,12 @@
+.map__container {
+  width: 270px;
+  height: 333px;
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+  top: 76px;
+  left: 20px;
+  padding-top: 24px;
+  padding-left: 24px;
+  box-sizing: border-box;
+}

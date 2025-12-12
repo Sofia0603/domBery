@@ -1,0 +1,7 @@
+@media (max-width: 1439px) {
+  .sale__filter {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  } 
+}

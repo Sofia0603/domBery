@@ -1,0 +1,57 @@
+/*Font InterTight*/
+@font-face {
+  font-family: 'InterTight';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./InterTight/InterTight-Regular.woff2") format("woff2"),
+       url("./InterTight/InterTight-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'InterTight';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./InterTight/InterTight-Medium.woff2") format("woff2"),
+       url("./InterTight/InterTight-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'InterTight';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./InterTight/InterTight-SemiBold.woff2") format("woff2"),
+       url("./InterTight/InterTight-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'InterTight';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./InterTight/InterTight-Bold.woff2") format("woff2"),
+       url("./InterTight/InterTight-Bold.woff") format("woff");
+}
+
+/*Font Muller*/
+@font-face {
+  font-family: 'Muller';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: 
+  /* url("./Muller/Muller-Medium.woff2") format("woff2"), */
+       url("./Muller/Muller-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Muller';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+   /* url("./Muller/Muller-Bold.woff2") format("woff2"), */
+       url("./Muller/Muller-Bold.woff") format("woff");
+}

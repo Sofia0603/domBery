@@ -1,0 +1,37 @@
+.bx_pagination_bottom{
+	margin-top: 30px;
+	text-align: center;
+	width: 100%;
+}
+.bx_pg_section {
+	list-style: none;
+	margin: 0 -7px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+.bx_pg_section > li {
+	padding: 7px;
+}
+.bx_pg_section > li > * {
+	min-width: 48px;
+	width: auto;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFFFFF;
+	border: 1px solid #D1D5DB;
+	border-radius: 8px;
+}
+.bx_pg_section > li.bx_active > * {
+	background: #10B981;
+	border-color: #10B981;
+	color: #FFFFFF;
+}
+.bx_pg_section > li:last-child {
+	margin-left: 40px;
+}
+.bx_pg_section > li:last-child > * {
+	padding: 0 24px;
+}

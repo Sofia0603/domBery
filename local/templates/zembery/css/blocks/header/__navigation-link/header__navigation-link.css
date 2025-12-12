@@ -1,0 +1,19 @@
+.header__navigation-link {
+  color: #F3F4F6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  font-family: "Inter Tight", sans-serif;
+  transition: all 0.25s ease;
+}
+
+.header__navigation-link:hover, .header__navigation-link:active {
+  color: #10B981;
+}
+
+@media (max-width: 1030px) {
+  .header__navigation-link {
+    font-size: 12px;
+  }
+}

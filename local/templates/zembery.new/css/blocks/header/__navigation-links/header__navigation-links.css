@@ -1,0 +1,19 @@
+.header__navigation-links {
+  max-width: 436px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1030px) {
+  .header__navigation-links {
+    width: 300px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header__navigation-links {
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+  }
+}

@@ -1,0 +1,15 @@
+/*.feedback__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #1F2937;
+  width: 123px;
+  margin: 0;
+  font-family: "Muller", sans-serif;
+}
+
+@media (max-width: 580px) {
+  .feedback__title {
+    margin-bottom: 10px;
+  }
+}*/

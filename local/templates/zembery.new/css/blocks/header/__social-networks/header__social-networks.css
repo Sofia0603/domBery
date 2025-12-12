@@ -1,0 +1,6 @@
+.header__social-networks {
+  padding-left: 20px;
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+}

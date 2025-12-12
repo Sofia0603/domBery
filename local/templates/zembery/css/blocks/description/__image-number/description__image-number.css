@@ -1,0 +1,13 @@
+.description__image-number {
+  position: relative;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  top: 20px;
+  left: 20px;
+  font-family: "Inter Tight", sans-serif;
+  width: 14px;
+  height: 20px;
+  margin: 0;
+}

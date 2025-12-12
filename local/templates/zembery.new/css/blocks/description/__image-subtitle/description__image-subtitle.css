@@ -1,0 +1,26 @@
+.description__image-subtitle {
+  position: relative;
+  left: 20px;
+  top: 226px;
+  width: 330px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  font-family: "Inter Tight", sans-serif;
+  margin: 0;
+}
+
+@media (max-width: 606px) {
+  .description__image-subtitle {
+    font-size: 12px;
+    top: 134px;
+  }
+}
+
+@media (max-width: 440px) {
+  .description__image-subtitle {
+    max-width: 256px;
+  }
+}
+

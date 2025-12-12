@@ -1,0 +1,15 @@
+.feedback__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 38px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 580px) {
+  .feedback__section {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}

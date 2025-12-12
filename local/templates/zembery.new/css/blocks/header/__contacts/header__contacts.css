@@ -1,0 +1,16 @@
+.header__contacts {
+  width: 279px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1030px) {
+  .header__contacts {
+    font-size: 16px;
+    max-width: 280px;
+  }
+}
+
+

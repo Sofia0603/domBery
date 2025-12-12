@@ -1,0 +1,21 @@
+.element__button {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid #E5E7EB;
+  background-color: #F6F8FC;
+  color: #1F2937;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 48px;
+  font-family: "Inter Tight", sans-serif;
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 420px) {
+  .element__button {
+    width: 280px;
+    margin: 0 auto;
+  }
+}

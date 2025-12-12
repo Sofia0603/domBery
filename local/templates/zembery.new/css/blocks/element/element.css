@@ -1,0 +1,5 @@
+.element {
+  box-sizing: border-box;
+  max-width: 357px;
+  position: relative;
+}

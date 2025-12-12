@@ -1,0 +1,41 @@
+.description__title {
+  color: #1F2937;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  max-width: 785px;
+  width: 100%;
+  font-family: "Muller", sans-serif;
+  margin: 0 0 39px;
+}
+
+@media (max-width: 1439px) {
+  .description__title {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 840px) {
+  .description__title {
+    max-width: 430px;
+  }
+}
+
+@media (max-width: 606px) {
+  .description__title{
+    font-size: 22px;
+    max-width: 340px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 440px) {
+  .description__title {
+    max-width: 100%;
+  }
+}
+

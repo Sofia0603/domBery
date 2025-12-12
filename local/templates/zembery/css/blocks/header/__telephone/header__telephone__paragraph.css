@@ -1,0 +1,16 @@
+.header__telephone__paragraph {
+  color: #F3F4F6;
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Inter Tight", sans-serif;
+  letter-spacing: 2%;
+}
+
+@media (max-width: 1030px) {
+  .header__telephone__paragraph {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

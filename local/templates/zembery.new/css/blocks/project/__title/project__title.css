@@ -1,0 +1,30 @@
+.project__title {
+  margin: 0;
+  max-width: 290px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "Muller", sans-serif;
+}
+
+@media (max-width: 570px) {
+  .project__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 570px) {
+  .project__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 440px) {
+  .project__title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

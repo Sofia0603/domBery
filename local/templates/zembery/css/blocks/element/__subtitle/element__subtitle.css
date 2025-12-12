@@ -1,0 +1,17 @@
+.element__subtitle {
+  width: 290px;
+  height: 50px;
+  color: #A7B0C1;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Inter Tight", sans-serif;
+  margin: 1px 0 16px;
+}
+
+@media (max-width: 440px) {
+  .element__subtitle {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

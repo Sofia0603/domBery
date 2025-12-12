@@ -1,0 +1,15 @@
+
+.header__link {
+  color: #6B7280;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  transition: all 0.25s ease;
+}
+
+@media (max-width: 1030px) {
+  .header__link {
+    font-size: 12px;
+  }
+}

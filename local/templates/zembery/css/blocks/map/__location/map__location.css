@@ -1,0 +1,13 @@
+.map__location {
+  background-color: #F6F8FC;
+  border-radius: 8px;
+  color: #1F2937;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  width: max-content;
+  font-family: "Inter Tight", sans-serif;
+}

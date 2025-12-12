@@ -1,0 +1,7 @@
+.header__about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #6B7280;
+  padding-bottom: 18px;
+}

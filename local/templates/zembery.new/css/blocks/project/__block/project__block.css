@@ -1,0 +1,25 @@
+.project__block {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+@media (max-width: 1439px) {
+  .project__block {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 840px) {
+  .project__block{
+    margin-left: 20px;
+  margin-top: 20px;
+  }
+}
+
+@media (max-width: 440px) {
+  .project__block{
+    margin-left: 10px;
+  margin-top: q0px;
+  }
+}

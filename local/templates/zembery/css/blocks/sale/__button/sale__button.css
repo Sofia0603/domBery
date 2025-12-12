@@ -1,0 +1,17 @@
+.sale__button {
+  background-color: #10B981 !important;
+  color: #FFFFFF !important;
+  width: 134px;
+  height: 40px;
+  border-radius: 8px;
+  border-style: none;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Inter Tight", sans-serif;
+  display: flex;
+  text-align: center;
+}
+.sale__button:hover, .sale__button:focus{
+  color: #FFF;
+}

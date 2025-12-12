@@ -1,0 +1,17 @@
+.description__button {
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  border-radius: 50%;
+  border-style: none;
+  left: 1070px;
+  bottom: 26px;
+}
+
+.description__button-left {
+  background-image: url(../../../../image/Left.svg);
+}
+
+.description__button-right {
+  background-image: url(../../../../image/Right.svg);
+}

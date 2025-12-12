@@ -1,0 +1,14 @@
+.element__paragraph {
+  color: #1F2937;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.element__paragraph-price {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: "Inter Tight", sans-serif;
+}

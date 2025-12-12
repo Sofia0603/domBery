@@ -1,0 +1,29 @@
+/*.feedback__card-text {
+  color: #1f2937;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 304px;
+  font-family: "Inter Tight", sans-serif;
+  margin: 2px 0 0;
+}
+
+@media (max-width: 1439px) {
+  .feedback__card-text {
+    width: 220px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .feedback__card-text {
+    width: 400px;
+  }
+}
+
+@media (max-width: 580px) {
+  .feedback__card-text {
+  width: 260px;
+  }
+}*/
+
+

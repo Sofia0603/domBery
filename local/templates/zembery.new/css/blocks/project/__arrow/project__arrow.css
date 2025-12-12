@@ -1,0 +1,13 @@
+.project__arrow {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+@media (max-width: 570px) {
+  .project__arrow {
+    width: 12px;
+    height: 12px;
+  }
+}

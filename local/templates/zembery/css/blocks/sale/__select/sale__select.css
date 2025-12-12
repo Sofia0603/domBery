@@ -1,0 +1,27 @@
+.sale__select {
+  height: 48px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #f6f8fc;
+  color: #1f2937;
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 16px;
+  padding-right: 55px;
+  appearance: none;
+  background-image: url(../../../../image/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 16px) center;
+  font-family: "Inter Tight", sans-serif;
+}
+.sale__select::after{
+  display: none;
+}
+
+@media (max-width: 1439px) {
+  .sale__select {
+    margin-right: 0;
+  }
+}

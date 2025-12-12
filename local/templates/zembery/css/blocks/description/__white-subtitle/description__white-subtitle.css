@@ -1,0 +1,28 @@
+.description__white-subtitle {
+  position: absolute;
+  top: 248px;
+  width: 210px;
+  left: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6B7280;
+  font-family: "Inter Tight", sans-serif;
+  margin: 0;
+}
+
+@media (max-width: 606px) {
+  .description__white-subtitle {
+    width: 165px;
+    font-size: 12px;
+    top: 224px;
+  }
+}
+
+@media (max-width: 440px) {
+  .description__white-subtitle {
+    font-size: 10px;
+    width: 110px;
+  }
+}
+

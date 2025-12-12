@@ -1,0 +1,6 @@
+.description__button-block {
+  width: 69px;
+  display: flex;
+  justify-content: space-around;
+  height: 29px;
+}

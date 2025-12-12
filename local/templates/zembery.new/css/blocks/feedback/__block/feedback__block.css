@@ -1,0 +1,20 @@
+.feedback__block {
+  display: grid;
+  grid-template-columns: 353px 353px 353px;
+  gap: 30px;
+}
+
+@media (max-width: 1439px) {
+  .feedback__block {
+  grid-template-columns: 260px 260px 260px;
+  justify-content: space-around;
+  }
+}
+
+@media (max-width: 1030px) {
+  .feedback__block {
+  grid-template-columns: 500px;
+  justify-content: space-around;
+  }
+}
+

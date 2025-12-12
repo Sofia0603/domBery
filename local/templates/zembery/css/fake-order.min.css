@@ -1,0 +1,74 @@
+.fake-order {
+    position: fixed;
+    width: 100%;
+    max-width: 290px;
+    padding: 10px;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #1A202C;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 80px;
+    transition: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    font: 13px Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.fake-order_top-right {
+    right: -3000px;
+    top: 15px;
+}
+.fake-order_top-right_active {
+    right: 15px;
+    visibility: visible;
+    transition: 0.3s;
+    opacity: 1;
+}
+.fake-order_top-left {
+    left: -3000px;
+    top: 15px;
+}
+.fake-order_top-left_active {
+    left: 15px;
+    visibility: visible;
+    transition: 0.3s;
+    opacity: 1;
+}
+.fake-order_bottom-right {
+    right: -3000px;
+    bottom: 15px;
+}
+.fake-order_bottom-right_active {
+    right: 15px;
+    visibility: visible;
+    transition: 0.3s;
+    opacity: 1;
+}
+.fake-order_bottom-left {
+    bottom: 15px;
+    left: -3000px;
+}
+.fake-order_bottom-left_active {
+    left: 15px;
+    visibility: visible;
+    transition: 0.3s;
+    opacity: 1;
+}
+.fake-order__img {
+    margin-right: 10px;
+    line-height: 0;
+}
+.fake-order__title {
+    width: 100%;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.fake-order__description {
+    font-size: 12px;
+    line-height: 1.3;
+}

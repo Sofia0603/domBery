@@ -1,0 +1,11 @@
+.description__description-image {
+  border-radius: 20px;
+}
+
+
+@media (max-width: 840px) {
+  .description__description-image {
+    visibility: hidden;
+  }
+}
+

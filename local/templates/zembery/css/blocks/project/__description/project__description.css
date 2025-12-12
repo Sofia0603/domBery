@@ -1,0 +1,30 @@
+.project__description {
+  margin: 0;
+  border-right: 1px solid #FFFFFF;
+  padding-right: 5px;
+  color: #F3F4F6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.project__description:last-child {
+  border: none;
+  padding: 0;
+}
+
+@media (max-width: 570px) {
+  .project__description {
+    font-size: 14px;
+    line-height: 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  .project__description {
+    font-size: 10px;
+    line-height: 5px;
+    width: 100px;
+  }
+}

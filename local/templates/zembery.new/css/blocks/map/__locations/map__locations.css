@@ -1,0 +1,6 @@
+.map__locations{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 240px;
+}

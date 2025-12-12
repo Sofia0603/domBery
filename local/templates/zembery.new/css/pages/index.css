@@ -1,0 +1,285 @@
+@import url(../vendor/fonts/fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__info/header__info.css);
+@import url(../blocks/header/__about/header__about.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+/* @import url(../blocks/header/__navigation/header__navigation-link.css); */
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__telephone/header__telephone.css);
+@import url(../blocks/header/__contacts/header__contacts.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__work/header__work.css);
+@import url(../blocks/header/__telephone/header__telephone__paragraph.css);
+@import url(../blocks/header/__social-networks/header__social-networks.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__navigation-links/header__navigation-links.css);
+@import url(../blocks/header/__navigation-link/header__navigation-link.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__telephone/header__telephone__time.css);
+@import url(../blocks/header/__image/header__image.css);
+/*Burger*/
+@import url(../blocks/burger/burger.css);
+/*Project*/
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/__image/project__image.css);
+@import url(../blocks/project/__block/project__block.css);
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__descriptions/project__descriptions.css);
+@import url(../blocks/project/__description/project__description.css);
+@import url(../blocks/project/__button/project__button.css);
+@import url(../blocks/project/__line/project__line.css);
+@import url(../blocks/project/__section/project__section.css);
+@import url(../blocks/project/__image-background/project__image-background.css);
+@import url(../blocks/project/__subtitle/project__subtitle.css);
+@import url(../blocks/project/_link/project__link.css);
+@import url(../blocks/project/__arrow/project__arrow.css);
+/*Sale*/
+@import url(../blocks/sale/sale.css);
+@import url(../blocks/sale/__title/sale__title.css);
+@import url(../blocks/sale/__filters/sale__filters.css);
+@import url(../blocks/sale/__filter/sale__filter.css);
+@import url(../blocks/sale/__button/sale__button.css);
+@import url(../blocks/sale/__select/sale__select.css);
+@import url(../blocks/sale/__label/sale__label.css);
+/*Elements*/
+@import url(../blocks/elements/elements.css);
+/*Element*/
+@import url(../blocks/element/element.css);
+@import url(../blocks/element/__image/element__image.css);
+@import url(../blocks/element/__icon/element__icon.css);
+@import url(../blocks/element/__start/element__start.css);
+@import url(../blocks/element/__title/element__title.css);
+@import url(../blocks/element/__subtitle/element__subtitle.css);
+@import url(../blocks/element/__button/element__button.css);
+@import url(../blocks/element/__sale/element__sale.css);
+@import url(../blocks/element/__paragraph/element__paragraph.css);
+/*Map*/
+@import url(../blocks/map/map.css);
+@import url(../blocks/map/__title/map__title.css);
+@import url(../blocks/map/__container/map__container.css);
+@import url(../blocks/map/__locations/map__locations.css);
+@import url(../blocks/map/__location/map__location.css);
+/*Description*/
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__info/description__info.css);
+@import url(../blocks/description/__subtitle/description__subtitle.css);
+@import url(../blocks/description/__image/description__image.css);
+@import url(../blocks/description/__block/description__block.css);
+@import url(../blocks/description/__button-block/description__button-block.css);
+@import url(../blocks/description/__image-title/description__image-title.css);
+@import url(../blocks/description/__image-subtitle/description__image-subtitle.css);
+@import url(../blocks/description/__image-number/description__image-number.css);
+@import url(../blocks/description/__white/description__white.css);
+@import url(../blocks/description/__white/description__white.css);
+@import url(../blocks/description/__white-number/description__white-number.css);
+@import url(../blocks/description/__white-title/description__white-title.css);
+@import url(../blocks/description/__white-subtitle/description__white-subtitle.css);
+@import url(../blocks/description/__white-image/description__white-image.css);
+@import url(../blocks/description/__description/description__description.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__description-image/description__description-image.css);
+@import url(../blocks/description/__button/description__button.css);
+/*Feedback*/
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__section/feedback__section.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__block/feedback__block.css);
+@import url(../blocks/feedback/__card/feedback__card.css);
+@import url(../blocks/feedback/__card-number/feedback__card-number.css);
+@import url(../blocks/feedback/__card-name/feedback__card-name.css);
+@import url(../blocks/feedback/__card-text/feedback__card-text.css);
+@import url(../blocks/feedback/__card-location/feedback__card-location.css);
+@import url(../blocks/feedback/__card-date/feedback__card-date.css);
+@import url(../blocks/feedback/__button/feedback__button.css);
+@import url(../blocks/feedback/__button-block/feedback__button-block.css);
+/*Question*/
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/__logo/question__logo.css);
+@import url(../blocks/question/__title/question__title.css);
+@import url(../blocks/question/__subtitle/question__subtitle.css);
+@import url(../blocks/question/__input/question__input.css);
+@import url(../blocks/question/__button/question__button.css);
+@import url(../blocks/question/__description/question__description.css);
+@import url(../blocks/question/__form/question__form.css);
+/*Footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__time/footer__time.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__contact-email/footer__contact-email.css);
+@import url(../blocks/footer/__paragraph/footer__paragraph.css);
+@import url(../blocks/footer/__social-networks/footer__social-networks.css);
+
+@import url(../blocks/prava/prava.css);
+@import url(../blocks/prava/__text/prava__text.css);
+
+/*Page*/
+@import url(../blocks/page/page.css);
+@import url(../vendor/normalize.css);
+@import url(../blocks/sale/__container/sale__container.css);
+
+
+.mainslider {
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+.mainslider .slick-list{
+    width: 100%;
+    max-width: 100%;
+}
+.mainslider .slick-dots{
+    display: none!important;
+}
+.mainslider .slick-prev.slick-arrow, .mainslider .slick-next.slick-arrow {
+    background-color: rgba(255, 255, 255, 0.8)!important;
+    height: 30px;
+    width: 30px;
+    top: auto;
+    bottom: 15px;
+}
+.mainslider .slick-prev.slick-arrow:after, .mainslider .slick-next.slick-arrow:after {
+    border-left: 2px solid #777;
+    border-top: 2px solid #777;
+    width: 10px;
+    height: 10px;
+    top: 11px;
+    right: 12px;
+}
+.mainslider .slick-next.slick-arrow {
+    right: 30px;
+}
+.mainslider .slick-prev.slick-arrow {
+    left: auto;
+    right: 80px;
+}
+.slick-prev.slick-arrow:after{
+    left: 12px;
+}
+.view-toggle__container{
+    display: flex;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.view-toggle{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #FFF;
+    transition: all 0.25s ease-in-out;
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view-toggle svg{
+    transition: all 0.25s ease-in-out;
+    color: #10B981;
+}
+.view-toggle--active{
+    background-color: #10B981;
+}
+.view-toggle--active svg{
+    color: #FFF;
+}
+.menu__trigger-wrapper{
+    position: relative;
+    background-color: #10B981;
+    width: 46px;
+    height: 38px;
+}
+.menu__trigger {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 28px;
+    height: 20px;
+    font-size: 0;
+    transition: background 0.3s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.menu__trigger-line {
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 0px;
+    right: 0px;
+    height: 2px;
+    background-color: #FFF;
+}
+.menu__trigger-line:before,
+.menu__trigger-line:after {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #FFF;
+    content: "";
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0.3s, 0s;
+}
+
+.menu__trigger-line:before{
+    top: -8px;
+    transition-property: top, transform;
+}
+.menu__trigger-line:after {
+    bottom: -8px;
+    transition-property: bottom, transform;
+}
+
+.menu__trigger--open .menu__trigger-line {
+    background: none;
+}
+.menu__trigger--open .menu__trigger-line:before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.menu__trigger--open .menu__trigger-line:after {
+    bottom: 0;
+    transform: rotate(-45deg);
+    width: 100%;
+}
+
+.menu__trigger--open .menu__trigger-line:before,
+.menu__trigger--open .menu__trigger-line:after {
+    transition-delay: 0s, 0.3s;
+}
+
+.mobile-menu{
+    display: none;
+}
+.mobile-menu--open{
+    display: block;
+    position: fixed;
+    z-index: 10;
+    top: 86px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1A202C;
+    padding-top: 20px;
+}
+.body--no-scroll{
+    overflow: hidden;
+}
+/* * { outline: 1px solid rgb(190, 18, 61); } */

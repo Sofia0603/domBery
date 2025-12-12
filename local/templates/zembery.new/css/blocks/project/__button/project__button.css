@@ -1,0 +1,21 @@
+.project__button {
+  position: relative;
+  border-radius: 8px;
+  border-style: none;
+  width: 121px;
+  height: 40px;
+  background-color: #10B981;  
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Inter Tight", sans-serif;
+}
+
+@media (max-width: 570px) {
+  .project__button {
+    width: 100px;
+
+    line-height: 16px;
+  }
+}

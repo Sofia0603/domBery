@@ -1,0 +1,9 @@
+.project__descriptions {
+  display: flex;
+  flex-direction: row;
+  max-width: 342px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

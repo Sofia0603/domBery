@@ -1,0 +1,52 @@
+.project__image-background {
+  position: relative;
+  left: 5px;
+  bottom: 55px;
+}
+
+@media (max-width: 1439px) {
+  .project__image-background {
+    width: 300px;
+    height: 300px;
+    left: 12px;
+    bottom: 60px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .project__image-background {
+    width: 200px;
+    left: 30px;
+    bottom:116px;
+  }
+}
+
+@media (max-width: 830px) {
+  .project__image-background {
+    width: 200px;
+    height: 170px;
+    bottom: 0px;
+    left: 300px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 570px) {
+  .project__image-background {
+    width: 120px;
+    height: 170px;
+    left: auto;
+    right: 0;
+  }
+}
+
+@media (max-width: 440px) {
+  .project__image-background {
+    width: 100px;
+    height: 110px;
+    left: auto;
+    right: 0;
+  }
+}
+
+

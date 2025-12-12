@@ -1,0 +1,17 @@
+.header__links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 420px;
+  width: 100%;
+  padding-top: 7px;
+}
+
+@media (max-width: 1030px) {
+  .header__links {
+    max-width: 260px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+  }
+}

@@ -1,0 +1,15 @@
+.footer__contact-email {
+  color: #10B981;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Inter Tight", sans-serif;
+}
+
+@media (max-width: 1130px) {
+  .footer__contact-email {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

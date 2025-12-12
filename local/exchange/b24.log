@@ -1,0 +1,82 @@
+Array
+(
+    [date] => 2025-05-30 15:29:58
+    [method] => GET
+    [get] => Array
+        (
+        )
+
+    [post] => Array
+        (
+        )
+
+    [raw_input] => 
+    [server] => Array
+        (
+            [UNIQUE_ID] => aDmkxrBd8qaY5hc279VsEgAAADY
+            [MMDB_ADDR] => 79.139.153.93
+            [GEOIP_ADDR] => 79.139.153.93
+            [MMDB_INFO] => result found
+            [GEOIP_CONTINENT_CODE] => EU
+            [GEOIP_LATITUDE] => 55.74870
+            [GEOIP_POSTAL_CODE] => 129338
+            [GEOIP_COUNTRY_CODE] => RU
+            [GEOIP_COUNTRY_NAME] => Russia
+            [GEOIP_REGION] => MOW
+            [GEOIP_CITY] => Moscow
+            [GEOIP_LONGITUDE] => 37.61870
+            [HTTPS] => on
+            [REMOTE_USER] => 
+            [PERL_USE_UNSAFE_INC] => 1
+            [HTTP_HOST] => zembery.ru
+            [HTTP_X_SERVER_ADDR] => 45.130.41.154
+            [HTTP_X_FORWARDED_PROTO] => https
+            [HTTP_X_REAL_IP] => 79.139.153.93
+            [HTTP_SEC_CH_UA] => "Chromium";v="136", "Google Chrome";v="136", "Not.A/Brand";v="99"
+            [HTTP_SEC_CH_UA_MOBILE] => ?0
+            [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+            [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+            [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+            [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            [HTTP_SEC_FETCH_SITE] => none
+            [HTTP_SEC_FETCH_MODE] => navigate
+            [HTTP_SEC_FETCH_USER] => ?1
+            [HTTP_SEC_FETCH_DEST] => document
+            [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+            [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+            [HTTP_PRIORITY] => u=0, i
+            [HTTP_COOKIE] => BX_USER_ID=88ea77d3e0129a46bba7191c397f11b4; _ym_uid=1733733396132057287; _ym_d=1737695677; ct_static_user_id=298630; clbvid=679321bd53916006ec7da5e1; ct_url_metrics=%7B%7D; BITRIX_SM_LOGIN=admin; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; __imz=utmcsr%3Dyandex%7Cctd%7Cutmccn%3D(not%20set)%7Cctd%7Cutmcmd%3Dorganic%7Cctd%7Cutmctr%3D-%7Cctd%7Cutmcct%3D-%7Cctd%7Creferrer%3Dhttp%3A%2F%2Fyandex.ru%2F%7Cctd%7Clanding%3Dhttps%25253A%2F%2Fzembery.ru%2F; BITRIX_SM_SALE_UID=3279; _ga_MHJQB8JGTT=GS1.1.1740397763.1.0.1740397763.60.0.310414600; _ga=GA1.1.2005952487.1737695677; beget=begetok; marquiz__url_params={}; BITRIX_SM_LAST_SETTINGS=; PHPSESSID=z35I66PF14RQ917Fe5CFDSjEBLk3bDUo; BITRIX_CONVERSION_CONTEXT_s1=%7B%22ID%22%3A1%2C%22EXPIRE%22%3A1748638740%2C%22UNIQUE%22%3A%5B%22conversion_visit_day%22%5D%7D; _ym_isad=2; _ym_visorc=w; v1_referrer_callibri=https%3A%2F%2Fzembery.ru%2Fcatalog%2F; _ga_V0T660M0QX=GS2.1.s1748607383$o177$g1$t1748608079$j57$l0$h0; ab_id=4f8b9340a342a7d928ff217c601d1e7e8292f047
+            [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+            [SERVER_SIGNATURE] => <address>Apache/2.4.55 (Unix) Server at zembery.ru Port 80</address>
+
+            [SERVER_SOFTWARE] => Apache/2.4.55 (Unix)
+            [SERVER_NAME] => zembery.ru
+            [SERVER_ADDR] => 45.130.41.154
+            [SERVER_PORT] => 443
+            [REQUEST_SCHEME] => https
+            [REMOTE_ADDR] => 79.139.153.93
+            [DOCUMENT_ROOT] => /home/z/zembery/zembery.beget.tech/public_html
+            [CONTEXT_PREFIX] => 
+            [CONTEXT_DOCUMENT_ROOT] => /home/z/zembery/zembery.beget.tech/public_html
+            [SERVER_ADMIN] => webmaster@zembery.ru
+            [SCRIPT_FILENAME] => /home/z/zembery/zembery.beget.tech/public_html/local/exchange/b24.php
+            [REMOTE_PORT] => 43002
+            [GATEWAY_INTERFACE] => CGI/1.1
+            [SERVER_PROTOCOL] => HTTP/1.1
+            [REQUEST_METHOD] => GET
+            [QUERY_STRING] => 
+            [REQUEST_URI] => /local/exchange/b24.php
+            [SCRIPT_NAME] => /local/exchange/b24.php
+            [PHP_SELF] => /local/exchange/b24.php
+            [REQUEST_TIME_FLOAT] => 1748608198.2251
+            [REQUEST_TIME] => 1748608198
+            [argv] => Array
+                (
+                )
+
+            [argc] => 0
+        )
+
+)
+
+

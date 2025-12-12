@@ -1,0 +1,31 @@
+.description__block {
+  display: grid;
+  grid-template-columns: 544px 544px;
+  column-gap: 32px;
+  margin-top: 11px;
+}
+
+@media (max-width: 1439px) {
+  .description__block {
+    grid-template-rows: 348px;
+    grid-template-columns: 544px;
+    row-gap: 28px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 606px) {
+  .description__block {
+    grid-template-columns: 400px;
+    grid-template-rows: 250px;
+  }
+}
+
+@media (max-width: 440px) {
+  .description__block {
+    grid-template-columns: 290px;
+    grid-template-rows: 250px;
+  }
+}
+
+

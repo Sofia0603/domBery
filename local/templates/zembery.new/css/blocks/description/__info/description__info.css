@@ -1,0 +1,30 @@
+.description__info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 38px;
+  /* max-width: 1120px; */
+  width: 100%;
+}
+
+@media (max-width: 1439px) {
+  .description__info {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1240px) {
+  .description__info {
+    max-width: 580px;
+  }
+}
+
+@media (max-width: 606px) {
+  .description__info {
+    max-width: 440px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

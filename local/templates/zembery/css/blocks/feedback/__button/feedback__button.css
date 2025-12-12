@@ -1,0 +1,16 @@
+/*.feedback__button {
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  border-radius: 50%;
+  border-style: none;
+
+}*/
+
+.feedback__button__left {
+  background-image: url(../../../../image/LeftFeedback.svg);
+}
+
+.feedback__button__right {
+  background-image: url(../../../../image/RightFeedback.svg);
+}

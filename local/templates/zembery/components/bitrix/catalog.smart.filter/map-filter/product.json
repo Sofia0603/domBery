@@ -1,0 +1,20 @@
+[
+  {
+  "id": "1",
+  "name": "Васькино Парк",
+  "price": "370 000",
+  "description": "Симферопольское шоссе, Чеховский г.о., 50 км от МКАД",
+  "advantages": "['Аптека', 'Больница']",
+  "image": "/upload/resize_cache/iblock/56c/6708cqbglpes3lz6unrekjvwedq36oio/494_370_2/1_Zemelnye-uchastki-v-Podmoskove-Vaskino-Park-leto-obshchii_-vid-poselka-sverkhu.jpg",
+  "coordinates": "55.125926, 37.598389"
+  },
+  {
+    "id": "2",
+  "name": "Якшино Лайт",
+  "price": "200 000",
+  "description": "Симферопольское шоссе, Чеховский городской округ",
+  "advantages": "['Аптека', 'Больница']",
+  "image": "/upload/resize_cache/iblock/d19/d6ay1xxy97fzfhb101t01alxm168yb6z/494_370_2/1_Zemelnye-uchastki-v-Podmoskove-YAkshino-Lai_t-leto-ozero-vozle-poselka.jpg.jpg",
+  "coordinates": "55.201024, 37.395348"
+  }
+]

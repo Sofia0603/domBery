@@ -1,0 +1,29 @@
+.sale__filters {
+  /* max-width: 1120px; */
+  width: 100%;
+  margin-top: 40px;
+}
+
+@media (max-width: 1439px) {
+  .sale__filters {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    max-width: 640px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1036px) {
+  .sale__filters {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 800px) {
+  .sale__filters {
+    max-width: 265px;
+    grid-template-columns: auto;
+    margin-top: 20px;
+  }
+}
