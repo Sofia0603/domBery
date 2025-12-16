@@ -310,6 +310,67 @@ unset($basketAction);
 </div>
 
 <br>
+
+<div class="mt-5 py-5 wide-gray-bg">
+    <div class="h1">Где можно построить этот дом</div>
+
+    <?php
+    if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
+
+    CModule::IncludeModule('iblock');
+
+    $arFilter = [
+        'IBLOCK_ID' => 1,
+        'ACTIVE' => 'Y',
+    ];
+    $arSelect = ['ID', 'NAME', 'DETAIL_PAGE_URL', 'PREVIEW_PICTURE', 'CODE'];
+
+    $res = CIBlockElement::GetList([], $arFilter, false, false, $arSelect);
+    $items = [];
+    while($ob = $res->GetNextElement()){
+        $arFields = $ob->GetFields();
+        $items[] = $arFields;
+    }
+
+    $itemStyle = 'col-12 col-sm-6 col-md-6 col-lg-4 mb-4 ';
+    $wrapStyle = 'row align-items-stretch';
+    ?>
+
+    <div class="<?=$wrapStyle?>">
+    <?php foreach($items as $arItem): ?>
+        <?php
+        $img = $arItem['PREVIEW_PICTURE']
+            ? CFile::ResizeImageGet($arItem['PREVIEW_PICTURE'], ['width'=>480,'height'=>360], BX_RESIZE_IMAGE_EXACT)['src']
+            : '/images/no-image.png';
+
+        // ссылка через символьный код
+        $link = 'https://zembery.ru/catalog/' . $arItem['CODE'] . '/';
+        ?>
+        <div class="<?=$itemStyle?>">
+            <div class="catalog-list-item">
+                <img class="catalog-list-item-img" src="<?=$img?>" alt="<?=$arItem['NAME']?>" />
+
+
+
+                <h2 class="mb-1"><?=$arItem['NAME']?></h2>
+
+                <div class="flex-grow-1"></div>
+
+                <div class="catalog-list-item-bottom">
+                    <a class="btn btn-lightgray btn-lg btn-block weight-500 stretched-link" href="<?=$link?>">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    <?php endforeach; ?>
+    </div>
+</div>
+
+
+
+
+
+
+<br>
 <div class="mt-5 py-5 wide-gray-bg">
     <div class="h1">Вам может понравиться</div>
 
@@ -412,5 +473,15 @@ unset($basketAction);
             ),
             $component
     );?>
+</div>
+
+<div class="mt-5 py-5 wide-gray-bg">
+    <div class="h1">Хотите получить пример сметы по этому дому?</div>
+        <button class="btn btn-primary btn-lg px-5"
+              type="button"
+              data-toggle="modal"
+              data-target="#smetaModal">
+          Скачать пример сметы
+      </button>
 </div>
 

@@ -2,7 +2,7 @@
 
     <img class="mb-2" src="/images/ico-question2-green.svg" />
     <h2>
-        Остались вопросы?
+       Купить проект
     </h2>
 
     <div class="mb-3">

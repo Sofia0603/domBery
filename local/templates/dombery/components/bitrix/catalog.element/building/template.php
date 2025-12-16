@@ -417,6 +417,58 @@ if ($hasAnyProperty): ?>
 </div>
 
 
+<?php
+$props = $arResult['PROPERTIES'];
+
+$rows = [
+    'BUILDING_TYPE'      => 'Тип постройки',
+    'BUILD_TECHNOLOGY'   => 'Технология',
+    'FOUNDATION_TYPE'    => 'Тип фундамента',
+    'D_ONELINE_FLOOR'    => 'Этажность',
+    'FLOOR_HEIGHT'       => 'Высота этажей',
+    'ONELINE_BEDROOM'    => 'Спальни',
+    'ONELINE_BATHROOM'   => 'Санузлы',
+    'lIVING_ROOMS'   => 'Жилые комнаты',
+    'ONELINE_LIVINGROOM_AREA' => 'Площадь гостиной',
+    'ONELINE_BALCONS'    => 'Террасы и балконы',
+    'GARAGE'    => 'Мансарда / баня / гараж ',
+    'COMMUNICATIONS'     => 'Ввод коммуникаций',
+    'DRAINAGE_SYSTEM'    => 'Водосточная система',
+    'FINISHING'          => 'Внешняя и внутренняя отделка',
+];
+
+$hasAnyProperty = false;
+foreach ($rows as $code => $title) {
+    if (!empty($props[$code]['VALUE'])) {
+        $hasAnyProperty = true;
+        break;
+    }
+}
+
+if ($hasAnyProperty): ?>
+    <div class="mt-5 mb-5">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped mb-0">
+                <tbody>
+
+                <?php foreach ($rows as $code => $title): ?>
+                    <?php if (!empty($props[$code]['VALUE'])): ?>
+                        <tr>
+                            <th style="width:40%"><?= $title ?></th>
+                            <td><?= $props[$code]['VALUE'] ?></td>
+                        </tr>
+                    <?php endif; ?>
+                <?php endforeach; ?>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+<?php endif; ?>
+
+
+
+
 <div class="modal fade" id="smetaModal" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -459,7 +511,7 @@ if ($hasAnyProperty): ?>
 
         <div class="modal-footer">
           <button id="smetaBtn" class="btn btn-primary w-100" type="button">
-            Получить пример сметы
+           Скачать пример сметы
           </button>
         </div>
       </form>
@@ -474,45 +526,50 @@ if ($hasAnyProperty): ?>
 
 
 
+
+
 <script>
 
-$(document).ready(function(){
-    $('.phone-mask').mask('+7 (000) 000-00-00');
+$('#smetaBtn').on('click', function (e) {
+    e.preventDefault();
 
-    $('#smetaBtn').on('click', function(e) {
-        e.preventDefault(); // отключаем стандартную отправку формы
+    const form = document.getElementById('smetaForm');
 
-        const $form = $('#smetaForm'); // получаем форму
-        const formData = $form.serialize();
 
-        $.ajax({
-            url: '/local/ajax/send_smeta.php',
-            method: 'POST',
-            data: formData,
-            dataType: 'json',
-            success: function(response) {
+    if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+    }
 
-                if (response.success) {
+    const formData = $(form).serialize();
+
+    $.ajax({
+        url: '/local/ajax/send_smeta.php',
+        method: 'POST',
+        data: formData,
+        dataType: 'json',
+        success: function (response) {
+            if (response.success) {
                 $('#smetaForm').hide();
-                    if(response.pdf_link){
+
+                if (response.pdf_link) {
                     $('#smetaResult').html(
                         '<a href="' + response.pdf_link + '" class="btn btn-success btn-lg m-3" target="_blank">Скачать смету (PDF)</a>'
                     );
-                    } else {
-                         $('#smetaResult').html(
-                             '<div class="m-3">Спасибо! Менеджер свяжется с вами и вышлет персональную смету по этому проекту.</div>'
-                         );
-                     }
-                 }
-            },
-            error: function() {
-                $('#smetaResult').html(
-                    '<div class="alert alert-danger">Произошла ошибка. Попробуйте позже.</div>'
-                );
+                } else {
+                    $('#smetaResult').html(
+                        '<div class="m-3">Спасибо! Менеджер свяжется с вами.</div>'
+                    );
+                }
             }
-        });
+        },
+        error: function () {
+            $('#smetaResult').html(
+                '<div class="alert alert-danger">Произошла ошибка. Попробуйте позже.</div>'
+            );
+        }
     });
-
 });
+;
 
 </script>
